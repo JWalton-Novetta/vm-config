@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/waltonj/go/src/github.com/Novetta/pwcop/lib'
-let g:netrw_dirhist_2='/home/waltonj/go/src/github.com/Novetta/pwcop/lib/aresmigrate'
-let g:netrw_dirhist_3='/home/waltonj/go/src/github.com/Novetta/pwcop/aresserver/server'
-let g:netrw_dirhist_4='/home/waltonj/go/src/github.com/Novetta/pwcop/aresweb/app/plugins/cot/cotinfobox/history'
-let g:netrw_dirhist_5='/home/waltonj/go/src/github.com/Novetta/pwcop/aresweb/app/plugins/kml'
-let g:netrw_dirhist_6='/home/waltonj/go/src/github.com/Novetta/pwcop/aresweb/app/plugins/cot/cotinfobox'
-let g:netrw_dirhist_7='/home/waltonj/go/src/github.com/Novetta/pwcop/aresserver/kml'

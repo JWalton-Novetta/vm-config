@@ -6,6 +6,8 @@
 "              on this file is still a good idea.
 "
 
+
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -65,8 +67,9 @@ set rtp+=$GOROOT/misc/vim
 syntax on
 
 " Color theme
-set t_Co=256
 colorscheme inkpot
+set t_Co=256
+set term=screen-256color
 
 
 "------------------------------------------------------------
@@ -227,8 +230,3 @@ au BufRead,BufNewFile *.go set filetype=go
 set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
 autocmd BufWritePost,FileWritePost *.go execute 'Lint' | cwindow
 
-
-" Set tmp file storage location
-set backup
-set backupdir=/home/waltonj/.vim/
-set dir=/home/waltonj/.vim/

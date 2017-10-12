@@ -1,4 +1,0 @@
-[submodule "logcop/logcopweb/packages/fbncjs"]
-	path = logcop/logcopweb/packages/fbncjs
-	url = git@github.com:Novetta/fbncjs.git
-    ignore = dirty
