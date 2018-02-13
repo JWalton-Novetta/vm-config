@@ -1,0 +1,10 @@
+
+# ls        list files
+# -l        display as list
+# -a        show all files
+# -r        reverse order (old to new)
+# -t        sort by time
+# -I .      ignore '.'
+# -I ..     ignore '..'
+
+ls -lart -I . -I ..
