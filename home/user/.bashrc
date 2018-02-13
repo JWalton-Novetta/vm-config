@@ -15,8 +15,8 @@ if [[ $TERM == xterm ]]; then
 fi
 
 # User specific aliases and functions
-source ~/bin/.git-completion
-source ~/bin/.git-prompt
+source ~/bin/git-completion.bash
+source ~/bin/git-prompt.sh
 
 source $HOME/go/src/github.com/Novetta/pwcop/dev/ares_dev.env
 
@@ -41,7 +41,6 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 export PYTHONPATH='/usr/lib/python2.7/site-packages/':$PYTHONPATH
 export COMMON=$NOVETTA_PATH/common
 export KERBPROXY=$NOVETTA_PATH/kerbproxy
-
 
 
 ################################################################################
