@@ -1,0 +1,23 @@
+set -e
+
+if [[ $# -ne 1 ]]; then
+    echo "Specify name!"
+    exit 1;
+fi
+
+echo "Searching file names for $1"
+find . -name $1
+echo ""
+
+echo "Searching file contents for $1"
+grep -rnil $1 .
+echo ""
+
+echo "Searching services for $1"
+systemctl -l --type service --all | grep $1 &
+echo ""
+
+echo "Searching packages for $1"
+rpm -qa | grep $1 
+echo ""
+

@@ -1,0 +1,10 @@
+set -e
+
+if [[ $# -ne 1 ]]; then
+    echo "Specify app name!"
+    exit 1;
+fi
+
+APP=$1
+echo "Showing log for '$APP'"
+sudo tail -f /var/log/$APP/$APP.log
